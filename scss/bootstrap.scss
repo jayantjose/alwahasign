@@ -1,0 +1,47 @@
+/******* Customized Bootstrap ********/
+
+$primary: #ff0000;
+$secondary: #f00;
+$light: #F4F7FC;
+$dark: #000;
+
+$font-family-base: 'Quicksand';
+
+$headings-font-family: 'Quicksand', sans-serif;
+
+$body-color: #848383;
+
+$headings-color: $dark;
+
+$headings-font-weight: 500;
+
+$display-font-weight: 700;
+
+$enable-responsive-font-sizes: true;
+
+$border-radius: 10px;
+
+$border-radius-sm: $border-radius;
+
+$border-radius-lg: $border-radius;
+
+$link-decoration: none;
+
+$enable-negative-margins: true;
+
+// Custom fonts (make sure the path to your font files is correct)
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/DIN-REGU.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN-Bold';
+    src: url('fonts/DIN-BOLD.TTF') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@import "bootstrap/scss/bootstrap";
